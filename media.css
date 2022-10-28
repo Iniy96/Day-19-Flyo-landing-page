@@ -1,0 +1,126 @@
+@media (max-width: 800px) {
+  .navbar img {
+    width: 10rem;
+  }
+  .navlist {
+    display: flex;
+    gap: 1rem;
+  }
+  /* ******** */
+  .topic1 {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    padding-bottom: 3em;
+  }
+
+  .topic1 .content1 {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .topic1 img {
+    width: 100%;
+  }
+  .content1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .content1 input {
+    padding: 0.5em 0;
+    outline: none;
+    height: 4rem;
+    border: 1px solid var(--Desaturated-Blue);
+    border-radius: 0.5rem;
+    width: 100%;
+    box-shadow: 0 0 5px var(--Light-Gray);
+  }
+
+  .content1 a {
+    display: block;
+    width: 100%;
+
+    margin-top: 1em;
+
+    margin-left: 0;
+  }
+  /* ******************************************** */
+
+  .productive {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+  }
+  .content .paragraphs {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .flyowork hr {
+    width: 50%;
+    margin: auto;
+  }
+  .quote {
+    width: 100%;
+    text-align: left;
+  }
+  /* ***************************************** */
+  .summarycontent {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    width: 90%;
+
+    gap: 2em;
+  }
+  .summarysection1 h2 {
+    font-size: 2.5rem;
+  }
+  .summarysection1 p {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .summarysection2 {
+    width: 100%;
+  }
+  .summarysection2 input {
+    width: 100%;
+  }
+
+  .summarysection2 a {
+    width: 100%;
+  }
+  /* *************************** */
+  .footercontent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact svg {
+    transform: scale(0.8);
+  }
+
+  .contactnumber img {
+    width: 1em;
+    height: 1em;
+    margin: 1rem;
+  }
+  .contactnumber a {
+    font-size: 1.4rem;
+  }
+  .footercontent ul {
+    margin: 1em 0;
+    padding-left: 2em;
+  }
+  .footercontent ul li {
+    width: 100%;
+  }
+  .socailmedia{
+    margin: auto;
+    padding-top: 2em;
+  }
+}
